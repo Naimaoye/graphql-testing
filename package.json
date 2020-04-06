@@ -1,0 +1,50 @@
+{
+  "name": "graphql-testing",
+  "version": "1.0.0",
+  "description": "Using graphql and node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naimaoye/graphql-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naimaoye/graphql-testing/issues"
+  },
+  "homepage": "https://github.com/Naimaoye/graphql-testing#readme",
+  "dependencies": {
+    "@babel/cli": "^7.6.3",
+    "@babel/core": "^7.6.3",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "@babel/runtime-corejs3": "^7.6.3",
+    "@hapi/joi": "^15.0.3",
+    "apollo-server": "^2.11.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "core-js": "^3.2.1",
+    "cors": "^2.8.5",
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.7",
+    "nodemailer": "^6.3.1",
+    "nodemailer-mailgun-transport": "^1.4.0",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
